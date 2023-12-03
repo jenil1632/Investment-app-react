@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <Header/>
-    <UserInput setInputs={setInputs} inputs={inputs}/>
+    <UserInput setInputs={setInputs}/>
     <Result inputs={inputs}/>
     </>
   )
